@@ -1,0 +1,44 @@
+{
+  "name": "unocss-preset-breakpoints",
+  "description": "Breakpoints Badge Preset for UnoCSS",
+  "version": "1.0.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/StatuAgency/unocss-preset-breakpoints/blob/main/LICENSE"
+    }
+  ],
+  "main": "src/index.ts",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": "https://github.com/StatuAgency/unocss-preset-breakpoints.git",
+  "homepage": "https://github.com/StatuAgency/unocss-preset-breakpoints",
+  "bugs": {
+    "url": "https://github.com/StatuAgency/unocss-preset-breakpoints/issues"
+  },
+  "author": "StatuAgency",
+  "license": "MIT",
+  "keywords": [
+    "unocss",
+    "breakpoints",
+    "badge"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.2",
+    "unocss": "^0.58.6",
+    "vite": "^5.1.6",
+    "vite-plugin-dts": "^3.7.3"
+  },
+  "peerDependencies": {
+    "unocss": ">= 0.56.0 < 1"
+  }
+}
